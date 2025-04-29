@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-image: url('./src/pwr.jpg'); /* Cambia esta URL por una imagen de fondo de Power Rangers */
+    background-image: url('./src/pwr.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -19,7 +19,7 @@ body {
     border-radius: 15px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
     animation: fadeIn 1s ease-in;
-    max-width: 90%; /* Asegura que el contenedor no sea demasiado ancho en pantallas pequeñas */
+    max-width: 90%;
 }
 
 h1 {
@@ -60,7 +60,6 @@ button:hover {
     pointer-events: none;
     background: url('./src/cnfti.gif') repeat; 
     background-position:center;
-    /* Cambia esta URL por una imagen de confeti */
     opacity: 0;
     transition: opacity 0.5s;
 }
@@ -79,18 +78,17 @@ button:hover {
     100% { transform: translateY(-10px); }
 }
 
-/* Estilos responsivos */
+
 @media (max-width: 600px) {
     h1 {
-        font-size: 2em; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+        font-size: 2em; 
     }
 
     p {
-        font-size: 1em; /* Tamaño de fuente más pequeño en pantallas pequeñas */
-    }
+        font-size: 1em; 
 
     button {
-        padding: 10px 20px; /* Botón más pequeño en pantallas pequeñas */
-        font-size: 1em; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+        padding: 10px 20px;
+        font-size: 1em; 
     }
 }
